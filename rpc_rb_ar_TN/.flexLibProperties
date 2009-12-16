@@ -4,8 +4,13 @@
     <classEntry path="org.lionart.locale.PlaceHolder"/>
   </includeClasses>
   <includeResources>
-    <resourceEntry destPath="locale/ar_TN/rpc.properties" sourcePath="locale/ar_TN/rpc.properties"/>
     <resourceEntry destPath="locale/ar_TN/messaging.properties" sourcePath="locale/ar_TN/messaging.properties"/>
+    <resourceEntry destPath="locale/ar_TN/rpc.properties" sourcePath="locale/ar_TN/rpc.properties"/>
+    <resourceEntry destPath="locale/ar_TN/collections.properties" sourcePath="locale/ar_TN/collections.properties"/>
+    <resourceEntry destPath="locale/ar_TN/core.properties" sourcePath="locale/ar_TN/core.properties"/>
+    <resourceEntry destPath="locale/ar_TN/logging.properties" sourcePath="locale/ar_TN/logging.properties"/>
+    <resourceEntry destPath="locale/ar_TN/styles.properties" sourcePath="locale/ar_TN/styles.properties"/>
+    <resourceEntry destPath="locale/ar_TN/utils.properties" sourcePath="locale/ar_TN/utils.properties"/>
   </includeResources>
   <namespaceManifests/>
 </flexLibProperties>

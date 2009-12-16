@@ -15,6 +15,7 @@
     <resourceEntry destPath="locale/ar_TN/containers.properties" sourcePath="locale/ar_TN/containers.properties"/>
     <resourceEntry destPath="locale/ar_TN/validators.properties" sourcePath="locale/ar_TN/validators.properties"/>
     <resourceEntry destPath="locale/ar_TN/utils.properties" sourcePath="locale/ar_TN/utils.properties"/>
+    <resourceEntry destPath="locale/ar_TN/modules.properties" sourcePath="locale/ar_TN/modules.properties"/>
   </includeResources>
   <namespaceManifests/>
 </flexLibProperties>

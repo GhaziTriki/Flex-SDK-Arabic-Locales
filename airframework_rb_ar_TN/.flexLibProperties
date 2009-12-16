@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <flexLibProperties includeAllClasses="true" version="3">
   <includeClasses/>
-  <includeResources/>
+  <includeResources>
+    <resourceEntry destPath="locale/ar_TN/SharedResources.properties" sourcePath="locale/ar_TN/SharedResources.properties"/>
+    <resourceEntry destPath="locale/ar_TN/SharedResources.properties.bak" sourcePath="locale/ar_TN/SharedResources.properties.bak"/>
+    <resourceEntry destPath="locale/ar_TN/aircontrols.properties" sourcePath="locale/ar_TN/aircontrols.properties"/>
+    <resourceEntry destPath="locale/ar_TN/collections.properties" sourcePath="locale/ar_TN/collections.properties"/>
+    <resourceEntry destPath="locale/ar_TN/containers.properties" sourcePath="locale/ar_TN/containers.properties"/>
+    <resourceEntry destPath="locale/ar_TN/controls.properties" sourcePath="locale/ar_TN/controls.properties"/>
+    <resourceEntry destPath="locale/ar_TN/controls.properties.bak" sourcePath="locale/ar_TN/controls.properties.bak"/>
+    <resourceEntry destPath="locale/ar_TN/core.properties" sourcePath="locale/ar_TN/core.properties"/>
+    <resourceEntry destPath="locale/ar_TN/effects.properties" sourcePath="locale/ar_TN/effects.properties"/>
+    <resourceEntry destPath="locale/ar_TN/formatters.properties" sourcePath="locale/ar_TN/formatters.properties"/>
+    <resourceEntry destPath="locale/ar_TN/skins.properties" sourcePath="locale/ar_TN/skins.properties"/>
+    <resourceEntry destPath="locale/ar_TN/styles.properties" sourcePath="locale/ar_TN/styles.properties"/>
+  </includeResources>
   <namespaceManifests/>
 </flexLibProperties>

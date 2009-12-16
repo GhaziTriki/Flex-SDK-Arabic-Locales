@@ -8,6 +8,7 @@
     <resourceEntry destPath="locale/ar_TN/automation_agent.properties" sourcePath="locale/ar_TN/automation_agent.properties"/>
     <resourceEntry destPath="locale/ar_TN/effects.properties" sourcePath="locale/ar_TN/effects.properties"/>
     <resourceEntry destPath="locale/ar_TN/skins.properties" sourcePath="locale/ar_TN/skins.properties"/>
+    <resourceEntry destPath="locale/ar_TN/controls.properties" sourcePath="locale/ar_TN/controls.properties"/>
   </includeResources>
   <namespaceManifests/>
 </flexLibProperties>

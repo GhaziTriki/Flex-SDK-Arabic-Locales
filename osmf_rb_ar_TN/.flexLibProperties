@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <flexLibProperties includeAllClasses="true" version="3">
   <includeClasses/>
-  <includeResources/>
+  <includeResources>
+    <resourceEntry destPath="locale/ar_TN/osmf.properties" sourcePath="locale/ar_TN/osmf.properties"/>
+  </includeResources>
   <namespaceManifests/>
 </flexLibProperties>
