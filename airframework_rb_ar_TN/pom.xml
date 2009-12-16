@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.lionart.locale</groupId>
+  <artifactId>airframework_rb_ar_TN</artifactId>
+  <name>Arabic Air Framework Resource Bundle</name>
+  <packaging>swc</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>central</id>
+      <name>Central Maven Repository</name>
+      <url>http://repo1.maven.org/maven2</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>servebox</id>
+      <name>ServeBox Plugin Repository</name>
+      <url>http://maven.servebox.org/repository</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <repositories>
+    <repository>
+      <id>Maven.ServeBox.org</id>
+      <name>ServeBox.org repository</name>
+      <url>http://maven.servebox.org/repository</url>
+    </repository>
+  </repositories>
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.servebox.flex</groupId>
+        <artifactId>flex-plugin</artifactId>
+        <version>2.3.2-SNAPSHOT</version>
+        <extensions>true</extensions>
+        <inherited>true</inherited>
+        <configuration />
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+
+    <dependency>
+      <groupId>com.adobe.flash.core</groupId>
+      <artifactId>playerglobal</artifactId>
+      <version>2.0</version>
+      <type>swc</type>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="org.lionart.locale.PlaceHolder"/>
+  </includeClasses>
+  <includeResources>
+    <resourceEntry destPath="locale/ar_TN/rpc.properties" sourcePath="locale/ar_TN/rpc.properties"/>
+    <resourceEntry destPath="locale/ar_TN/messaging.properties" sourcePath="locale/ar_TN/messaging.properties"/>
+  </includeResources>
+  <namespaceManifests/>
+</flexLibProperties>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses/>
+  <includeResources>
+    <resourceEntry destPath="locale/ar_TN/styles.properties" sourcePath="locale/ar_TN/styles.properties"/>
+    <resourceEntry destPath="locale/ar_TN/core.properties" sourcePath="locale/ar_TN/core.properties"/>
+    <resourceEntry destPath="locale/ar_TN/containers.properties" sourcePath="locale/ar_TN/containers.properties"/>
+    <resourceEntry destPath="locale/ar_TN/automation_agent.properties" sourcePath="locale/ar_TN/automation_agent.properties"/>
+    <resourceEntry destPath="locale/ar_TN/effects.properties" sourcePath="locale/ar_TN/effects.properties"/>
+    <resourceEntry destPath="locale/ar_TN/skins.properties" sourcePath="locale/ar_TN/skins.properties"/>
+  </includeResources>
+  <namespaceManifests/>
+</flexLibProperties>
