@@ -2,11 +2,11 @@
 <flexLibProperties includeAllClasses="true" version="3">
   <includeClasses/>
   <includeResources>
-    <resourceEntry destPath="locale/ar_TN/components.properties" sourcePath="locale/ar_TN/components.properties"/>
-    <resourceEntry destPath="locale/ar_TN/layout.properties" sourcePath="locale/ar_TN/layout.properties"/>
+    <resourceEntry destPath="locale/ar_TN/textLayout.properties" sourcePath="locale/ar_TN/textLayout.properties"/>
     <resourceEntry destPath="locale/ar_TN/osmf.properties" sourcePath="locale/ar_TN/osmf.properties"/>
     <resourceEntry destPath="locale/ar_TN/sparkEffects.properties" sourcePath="locale/ar_TN/sparkEffects.properties"/>
-    <resourceEntry destPath="locale/ar_TN/textLayout.properties" sourcePath="locale/ar_TN/textLayout.properties"/>
+    <resourceEntry destPath="locale/ar_TN/layout.properties" sourcePath="locale/ar_TN/layout.properties"/>
+    <resourceEntry destPath="locale/ar_TN/components.properties" sourcePath="locale/ar_TN/components.properties"/>
   </includeResources>
   <namespaceManifests/>
 </flexLibProperties>
