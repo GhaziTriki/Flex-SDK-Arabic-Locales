@@ -1,6 +1,6 @@
 package org.lionart.locale
 {
-	[ResourceBundle("core")]
+	[ResourceBundle("qtp_air")]
 /**
  * Resource Bundles PlaceHolder for ar_TN
  * 
