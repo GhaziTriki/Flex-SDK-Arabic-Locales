@@ -7,10 +7,10 @@
     <resourceEntry destPath="locale/ar_TN/core.properties" sourcePath="locale/ar_TN/core.properties"/>
     <resourceEntry destPath="locale/ar_TN/SharedResources.properties" sourcePath="locale/ar_TN/SharedResources.properties"/>
     <resourceEntry destPath="locale/ar_TN/effects.properties" sourcePath="locale/ar_TN/effects.properties"/>
-    <resourceEntry destPath="locale/ar_TN/states.properties" sourcePath="locale/ar_TN/states.properties"/>
     <resourceEntry destPath="locale/ar_TN/skins.properties" sourcePath="locale/ar_TN/skins.properties"/>
-    <resourceEntry destPath="locale/ar_TN/styles.properties" sourcePath="locale/ar_TN/styles.properties"/>
+    <resourceEntry destPath="locale/ar_TN/states.properties" sourcePath="locale/ar_TN/states.properties"/>
     <resourceEntry destPath="locale/ar_TN/formatters.properties" sourcePath="locale/ar_TN/formatters.properties"/>
+    <resourceEntry destPath="locale/ar_TN/styles.properties" sourcePath="locale/ar_TN/styles.properties"/>
     <resourceEntry destPath="locale/ar_TN/controls.properties" sourcePath="locale/ar_TN/controls.properties"/>
     <resourceEntry destPath="locale/ar_TN/containers.properties" sourcePath="locale/ar_TN/containers.properties"/>
     <resourceEntry destPath="locale/ar_TN/validators.properties" sourcePath="locale/ar_TN/validators.properties"/>

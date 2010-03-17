@@ -2,9 +2,9 @@
 <flexLibProperties includeAllClasses="true" version="3">
   <includeClasses/>
   <includeResources>
+    <resourceEntry destPath="locale/ar_TN/olap.properties" sourcePath="locale/ar_TN/olap.properties"/>
     <resourceEntry destPath="locale/ar_TN/charts.properties" sourcePath="locale/ar_TN/charts.properties"/>
     <resourceEntry destPath="locale/ar_TN/datamanagement.properties" sourcePath="locale/ar_TN/datamanagement.properties"/>
-    <resourceEntry destPath="locale/ar_TN/olap.properties" sourcePath="locale/ar_TN/olap.properties"/>
   </includeResources>
   <namespaceManifests/>
 </flexLibProperties>
