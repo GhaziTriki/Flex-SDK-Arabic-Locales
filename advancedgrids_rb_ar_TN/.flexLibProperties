@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses/>
+  <includeResources>
+    <resourceEntry destPath="locale/ar_TN/olap.properties" sourcePath="locale/ar_TN/olap.properties"/>
+    <resourceEntry destPath="locale/ar_TN/datamanagement.properties" sourcePath="locale/ar_TN/datamanagement.properties"/>
+  </includeResources>
+  <namespaceManifests/>
+</flexLibProperties>
