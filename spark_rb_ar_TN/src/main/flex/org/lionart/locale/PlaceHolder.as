@@ -1,5 +1,6 @@
 package org.lionart.locale
 {
+	[ResourceBundle("collections")]
 	[ResourceBundle("components")]
 	[ResourceBundle("layout")]
 	[ResourceBundle("osmf")]
