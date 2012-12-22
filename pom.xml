@@ -1,0 +1,130 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.adobe.flex.framework</groupId>
+    <artifactId>flex-sdk-arabic-locales</artifactId>
+    <name>FLEX Arabic Resource Bundles</name>
+    <version>0.5-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <developers>
+        <developer>
+            <id>LionArt</id>
+            <name>Ghazi Triki</name>
+        </developer>
+    </developers>
+
+    <properties>
+        <flexmojos.version>4.2-beta</flexmojos.version>
+        <flex.sdk.version>4.6.b.23201</flex.sdk.version>
+        <flashplayer.version.swf>13</flashplayer.version.swf>
+        <flashplayer.version.major>11</flashplayer.version.major>
+        <flashplayer.version.minor>1</flashplayer.version.minor>
+        <flashplayer.version>${flashplayer.version.major}.${flashplayer.version.minor}</flashplayer.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.adobe.flex.framework</groupId>
+            <artifactId>flex-framework</artifactId>
+            <version>${flex.sdk.version}</version>
+            <type>pom</type>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.adobe.flex.framework</groupId>
+                    <artifactId>playerglobal</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.flex.framework</groupId>
+            <artifactId>playerglobal</artifactId>
+            <classifier>${flashplayer.version.major}.${flashplayer.version.minor}</classifier>
+            <version>${flex.sdk.version}</version>
+            <type>swc</type>
+            <scope>external</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src/main/flex</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.sonatype.flexmojos</groupId>
+                <artifactId>flexmojos-maven-plugin</artifactId>
+                <version>${flexmojos.version}</version>
+                <extensions>true</extensions>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.adobe.flex</groupId>
+                        <artifactId>compiler</artifactId>
+                        <version>${flex.sdk.version}</version>
+                        <type>pom</type>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <coverage>true</coverage>
+                    <configurationReport>true</configurationReport>
+                    <targetPlayer>${flashplayer.version}</targetPlayer>
+                    <swfVersion>${flashplayer.version.swf}</swfVersion>
+                    <optimize>true</optimize>
+                    <resourceBundlePath>src/main/resources/locale/</resourceBundlePath>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modules>
+        <module>advancedgrids_rb_ar_TN</module>
+        <module>airframework_rb_ar_TN</module>
+        <!-- <module>airspark_rb_ar_TN</module> -->
+        <!-- <module>automation_agent_rb_ar_TN</module> -->
+        <!-- <module>automation_rb_ar_TN</module> -->
+        <!-- <module>charts_rb_ar_TN</module> -->
+        <!-- <module>flash-integration_rb_ar_TN</module> -->
+        <!-- <module>framework_rb_ar_TN</module> -->
+        <!-- <module>mobilecomponents_rb_ar_TN</module> -->
+        <!-- <module>mx_rb_ar_TN</module> -->
+        <!-- <module>osmf_rb_ar_TN</module> -->
+        <!-- <module>qtp_air_rb_ar_TN</module> -->
+        <!-- <module>rpc_rb_ar_TN</module> -->
+        <!-- <module>spark_rb_ar_TN</module> -->
+        <!-- <module>textLayout_rb_ar_TN</module> -->
+    </modules>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <name>Maven Plugin Repository</name>
+            <url>http://repo1.maven.org/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>flexmojos-repository</id>
+            <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>oss-sonatype</id>
+            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <repositories>
+        <repository>
+            <id>flex-mojos-repository</id>
+            <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+
+</project>
